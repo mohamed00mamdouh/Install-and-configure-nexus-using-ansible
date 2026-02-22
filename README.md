@@ -133,13 +133,13 @@ The playbook:
 Basic execution:
 
 ```bash
-ansible-playbook -i inventory.ini playbook.yml
+ansible-playbook  playbook.yml
 ```
 
 If sudo password is required:
 
 ```bash
-ansible-playbook -i inventory.ini playbook.yml --ask-become-pass
+ansible-playbook playbook.yml --ask-become-pass
 ```
 
 ---
