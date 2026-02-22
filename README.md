@@ -37,6 +37,7 @@ Before running this playbook, ensure you have:
 .
 ├── inventory.ini
 ├── playbook.yml
+├── ansible.cfg
 └── README.md
 ```
 
